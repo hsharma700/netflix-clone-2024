@@ -2,7 +2,6 @@ import React from "react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { useNavigate } from "react-router-dom";
 export function Title({ title }) {
   return <h2>{title}</h2>;
 }
