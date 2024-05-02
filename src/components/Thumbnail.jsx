@@ -8,7 +8,6 @@ export function Title({ title }) {
 }
 
 export function Thumbnail({ thumnailData, index }) {
-  const navigate = useNavigate();
 
   const srclocation = (e) => {
     window.open(`/detail?poster_path=${thumnailData.poster_path}&title=${thumnailData?.original_title ?? thumnailData.original_name}&overview=${thumnailData.overview}`);
