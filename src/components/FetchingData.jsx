@@ -8,7 +8,6 @@ const popularmovies = "movie/popular";
 const populartv = "tv/popular";
 const topratedmovies = "movie/top_rated";
 const nowplayingmovies = "movie/now_playing";
-const upcomingmovies = "movie/upcoming";
 
 export const UseApiData = () => {
   const [data, setData] = useState();
